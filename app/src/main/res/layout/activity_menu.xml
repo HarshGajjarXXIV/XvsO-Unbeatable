@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/black_overlay"
+    tools:context="com.tayon.xvso.MenuActivity">
+
+    <TextView
+        android:id="@+id/txtTitleX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/x_menu"
+        android:textAlignment="textEnd"
+        android:textColor="#ffff4444"
+        android:textSize="100sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitlevs"
+        app:layout_constraintTop_toTopOf="@+id/txtTitlevs" />
+
+    <TextView
+        android:id="@+id/txtTitlevs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/vs"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnVsAndroid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTitleO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/o_menu"
+        android:textColor="#32CD32"
+        android:textSize="100sp"
+        app:layout_constraintStart_toEndOf="@+id/txtTitlevs"
+        app:layout_constraintTop_toTopOf="@+id/txtTitlevs" />
+
+    <Button
+        android:id="@+id/btnVsAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/vs_android"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/black_overlay"
+        app:layout_constraintBottom_toTopOf="@+id/btnVsPlayer" />
+
+    <Button
+        android:id="@+id/btnVsPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"
+        android:text="@string/vs_player"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/black_overlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+</android.support.constraint.ConstraintLayout>

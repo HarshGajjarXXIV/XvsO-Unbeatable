@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/black_overlay"
+    tools:context="com.tayon.xvso.LevelActivity">
+
+    <TextView
+        android:id="@+id/txtLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/difficulty"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="#ffff4444"
+        app:layout_constraintBottom_toTopOf="@+id/btnBeat" />
+
+    <Button
+        android:id="@+id/btnBeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/noob_easy"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/black_overlay"
+        app:layout_constraintBottom_toTopOf="@+id/btnNormal" />
+
+    <Button
+        android:id="@+id/btnNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/expert_hard"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/black_overlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUnbeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/unbeatable_impossible_to_win"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/black_overlay"
+        app:layout_constraintTop_toBottomOf="@+id/btnNormal" />
+
+</android.support.constraint.ConstraintLayout>

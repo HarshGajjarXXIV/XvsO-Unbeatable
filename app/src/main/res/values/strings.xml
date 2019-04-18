@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">XvsO</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="x_menu">X</string>
+    <string name="vs">vs</string>
+    <string name="o_menu">O</string>
+    <string name="vs_android">Play Against AI</string>
+    <string name="vs_player">Play Against Player (Offline)</string>
+    <string name="difficulty">Choose A Difficulty</string>
+    <string name="noob_easy">Noob (Easy)</string>
+    <string name="expert_hard">Expert (Hard)</string>
+    <string name="unbeatable_impossible_to_win">Unbeatable (Impossible to Win)</string>
+    <string name="make_a_choice">Make A choice!</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="start_game">Start Game</string>
+    <string name="score_of_x">Score of X</string>
+    <string name="_x0">0</string>
+    <string name="score_of_o">Score of O</string>
+    <string name="_o0">0</string>
+    <string name="draw">Draw</string>
+    <string name="_d0">0</string>
+    <string name="note_x_always_goes_first">Note: X always goes first</string>
+    <string name="hey_i_m_harsh_patvana_tayon1o1">Hey, I\'m Harsh Patvana</string>
+    <string name="aboutText">I\'m young developer and this is my first android project ever. \"XvsO\" is a simple Tic Tac Toe game with thinking power. \"XvsO\" is currently in beta stage if you find any bug than please report me.</string>
+    <string name="you_can_find_me_here">You can find me here</string>
+    <string name="instagram">Instagram</string>
+    <string name="email">Email</string>
+</resources>
