@@ -1,4 +1,4 @@
-# XvsO-Unbeatable
+# XvsO-Unbeatable (Android Studio)
 <br>
 "XvsO" is a simple Tic Tac Toe game with never losing algorithm and beautiful design<br>
 "XvsO" supports two gameplay mode "Play Against Player" and "Play Against AI".<br>
